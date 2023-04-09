@@ -1,0 +1,28 @@
+{
+  "name": "esbuild-plugin-tailwind",
+  "version": "0.1.0",
+  "description": "Unofficial Tailwind CSS plugin for esbuild, but is as good as any.",
+  "keywords": [
+    "esbuild",
+    "plugin",
+    "tailwind",
+    "css"
+  ],
+  "license": "MIT",
+  "author": "Dustin Dowell",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1"
+  },
+  "optionalDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-node": "^11.1.0"
+  }
+}
